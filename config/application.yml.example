@@ -1,0 +1,3 @@
+# Environment Variables Here
+DB_USERNAME: my_db_username
+DB_PASSWORD: my_db_password

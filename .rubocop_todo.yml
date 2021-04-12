@@ -1,0 +1,50 @@
+Layout/EmptyLines:
+  Exclude:
+    - config/initializers/simple_form_bootstrap.rb
+
+Layout/HashAlignment:
+  Exclude:
+    - config/initializers/simple_form.rb
+    - config/initializers/simple_form_bootstrap.rb
+
+
+Layout/LineLength:
+  Exclude:
+    - config/initializers/simple_form_bootstrap.rb
+
+Lint/UnusedBlockArgument:
+  Exclude:
+    - config/initializers/simple_form_bootstrap.rb
+
+Metrics/BlockLength:
+  Exclude:
+    - config/initializers/simple_form.rb
+    - config/initializers/simple_form_bootstrap.rb
+
+Rails/FilePath:
+  Exclude:
+    - spec/rails_helper.rb
+
+RSpec/HookArgument:
+  Exclude:
+    - spec/support/database_cleaner.rb
+
+Style/BlockComments:
+  Exclude:
+    - spec/spec_helper.rb
+
+Style/Lambda:
+  Exclude:
+    - config/initializers/simple_form_bootstrap.rb
+
+Style/StringLiterals:
+  Exclude:
+    - config.ru
+    - config/application.rb
+    - config/boot.rb
+    - config/initializers/simple_form_bootstrap.rb
+    - config/puma.rb
+    - config/spring.rb
+    - Gemfile
+    - Rakefile
+    - spec/rails_helper.rb
